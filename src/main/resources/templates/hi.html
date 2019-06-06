@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <title>Hello from Angularjs</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> 
+    <script src="js/controller.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    
+</head>
+<body style="background: dbf0ed;"><br>
+    <div ng-controller="Controler"><br><br>
+    <input style="margin-left: 300px;" type="text" ng-model="msg" readonly="readonly" maxlength="30"/><br>
+<h1>Hello World. {{msg}}</h1>
+</div>
+</body>
+</html>
